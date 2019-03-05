@@ -22,7 +22,7 @@ public class MagicSquareRunner
 
         for( int i = 0; i < numSquares; i++ ){
             MagicSquare m = new MagicSquare( lengths[i], squares[i] );
-            m.toString();
+            System.out.println(m);
             if( m.isMagicSquare() )
             {
                 System.out.println( "MAGIC SQUARE" );

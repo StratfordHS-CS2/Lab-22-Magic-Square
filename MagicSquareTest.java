@@ -73,8 +73,8 @@ public class MagicSquareTest
     @Test(timeout=2000)
     public void sumUpDiagTest()
     {
-        MagicSquare m = new MagicSquare( 3, "1 2 3 4 5 6 7 8 9" );
-        assertEquals( "sumUpDiag failed (-14 points)", 15, m.sumUpDiag() );
+        MagicSquare m = new MagicSquare( 3, "1 2 3 1 2 3 1 2 3" );
+        assertEquals( "sumUpDiag failed (-14 points)", 6, m.sumUpDiag() );
     }
 
     /**
