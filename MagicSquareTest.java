@@ -33,7 +33,7 @@ public class MagicSquareTest
         for( int i = 0; i < numSquares; i++ )
         {
             MagicSquare m = new MagicSquare( lengths[i], squares[i] );
-            assertEquals( "Testing Square (" + squares[i] + ") (-20 points):", expectedOutput[i], m.isMagicSquare() );
+            assertEquals( "Testing Square (" + squares[i] + ") (-20 points)", expectedOutput[i], m.isMagicSquare() );
         }
     }
 

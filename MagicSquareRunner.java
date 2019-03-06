@@ -7,6 +7,11 @@
  */
 public class MagicSquareRunner
 {
+    /**
+     * Main method
+     *
+     * @param args not used
+     */
     public static void main( String[] args )
     {
         int numSquares = 6;
